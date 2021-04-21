@@ -54,7 +54,7 @@ const Checkout  = (props) => {
                 </div>
             </div>
             <ul className="nav nav-pills nav-stacked">
-                <li className="active"><a href="#"><span className="badge pull-right"><span className="glyphicon glyphicon-usd"></span>{props.total}</span> Final Payment</a>
+                <li className="active"><a href="/"><span className="badge pull-right"><span className="glyphicon glyphicon-usd"></span>{props.total}</span> Final Payment</a>
                 </li>
             </ul>
             <br/>

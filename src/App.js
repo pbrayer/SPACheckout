@@ -1,12 +1,11 @@
 import './App.css';
-import React, { Component, Fragment } from 'react';
+import React, { Component} from 'react';
 import ShoppingCart from "./components/ShoppingCart";
 import Checkout from "./components/Checkout";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 class App extends Component {
